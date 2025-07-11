@@ -288,15 +288,6 @@
 
 
 /* RESPONSIVE */
-@media (max-width: 1400px) {
-    .hero-button {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        z-index: 999;
-    }
-}
-
 
 @media (max-width: 1180px) {
     .header-link {
@@ -314,14 +305,9 @@
         align-items: center;
     }
 
-    .hero-button {
-        position: sticky;
-        
-    }
-
     .hero-img {
         position: static;
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     .hero-container {
@@ -332,7 +318,7 @@
 
     .hero-section {
         background-color: #0EB4C1;
-        height: 975px;
+        height: 962px;
         padding: 20px;
     }
 
@@ -432,10 +418,7 @@
     }
 
     .hero-button {
-        position: fixed;
-        top: 460px;
-        display: flex;
-        z-index: 11;
+        margin-top: 80px;
     }
 
     .xizmatlar-button {
@@ -457,8 +440,8 @@
 
     .hero-button {
         width: 170px;
+        margin-top: 150px;
         font-size: 9px;
-        top: 530px;
     }
 
     .hero-img {
@@ -502,8 +485,8 @@
     }
 
     .hero-button {
-        position: fixed;
-        margin-top: -80px;
+        position: relative;
+        margin-top: -220px;
         width: 170px;
         font-size: 9px;
     }
@@ -513,7 +496,7 @@
     }
 
     .hero-img {
-        margin-top: 100px;
+        margin-top: 280px;
         width: 270px;
         height: 300px;
     }
