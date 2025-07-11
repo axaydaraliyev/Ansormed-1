@@ -8,9 +8,9 @@
     <title>Ansormed</title>
 </head>
 <body>
-    <header class="header container">
+    <header class="header container" style="display: none;">
         <div class="header-container">
-            <a data-aos="fade-right" data-aos-duration="2000" href="#"><img src="./img/Ansormed-logo.svg" alt="Ansormed-logo"></a>
+            <a data-aos="fade-right" data-aos-duration="2000" href="#"><img class="header-img" src="./img/Ansormed-logo.svg" alt="Ansormed-logo"></a>
             <div class="header-links">
                 <ul class="header-link">
                     <li>
@@ -31,12 +31,19 @@
                 </ul>
             </div>
 
-            <a data-aos="fade-left" data-aos-duration="2000" class="red-button" href="#">QABULGA YOZILISH</a>
+            <a data-aos="fade-left" data-aos-duration="2000" class="red-button header-button" href="#">QABULGA YOZILISH</a>
+
+            <a href="#">
+                <svg    
+                class="burger-menu" 
+                data-aos="fade-down-left" data-aos-duration="1000"  
+                width="32px" height="32px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 12.85L1 12.85L1 14.15L14 14.15L14 12.85ZM14 8.85002L1 8.85002L1 10.15L14 10.15L14 8.85002ZM1 4.85003L14 4.85003L14 6.15003L1 6.15002L1 4.85003ZM14 0.850025L1 0.850025L1 2.15002L14 2.15002L14 0.850025Z" fill="currentColor" fill-rule="evenodd"             clip-rule="evenodd"></path></svg>
+            </a>
         </div>
     </header>
 
     <main class="main">
-        <section class="hero-section">
+        <section class="hero-section" style="display: none;">
             <div class="container hero-container">
                 <div class="hero-content">
                     <h1 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="300" class="hero-title">
@@ -46,15 +53,15 @@
                     <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="600" class="hero-text">
                         Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.
                     </p>
-
-                    <a data-aos="fade-right" data-aos-duration="2000" data-aos-delay="900" class="red-button" href="#">QABULGA YOZILISH</a>
+                    
                 </div>
+                <a data-aos="fade-right" data-aos-duration="2000" data-aos-delay="900" class="red-button hero-button" href="#">QABULGA YOZILISH</a>
 
-                <img data-aos="fade-left" data-aos-duration="2000" data-aos-delay="300" class="hero-img" src="./img/hero-img.png" width="423px" height="504px" alt="hero-img">
+                <img data-aos="fade-left" data-aos-duration="2000" data-aos-delay="300" class="hero-img" width="423px" height="504px" src="./img/hero-img.png" alt="hero-img">
             </div>
         </section>
 
-        <section class="xizmatlar-section container">
+        <section class="xizmatlar-section container" style="display: none;">
             <h2 data-aos="fade-down" data-aos-duration="2000" class="xizmatlar-title">Xizmatlar</h2>
             <div class="xizmatlar-container">
                 <ul class="xizmatlar-ul">
@@ -107,23 +114,23 @@
                     </li>
                 </ul>
             </div>
-            <a data-aos="fade-up" data-aos-duration="2000" class="red-button" href="#">QABULGA YOZILISH</a>
+            <a data-aos="fade-up" data-aos-duration="2000" class="red-button xizmatlar-button" href="#">QABULGA YOZILISH</a>
         </section>
 
-        <section class="cta">
+        <section class="cta" style="display: none;">
             <div class="cta-container container">
                 <h2 data-aos="fade-down" data-aos-duration="2000" class="cta-title">
                     Qabulga ro'yxatdan o'ting
                 </h2>
                 <div class="cta-buttons">
-                    <a data-aos="fade-right" data-aos-duration="2000" data-aos-delay="300" class="ctabtn-one" href="#">QO'NGIROQ QILISH</a>
-                    <a data-aos="fade-left" data-aos-duration="2000" data-aos-delay="300" class="ctabtn-two" href="#">TELEGRAMDAN YOZISH</a>
+                    <a class="ctabtn-one" href="#">QO'NGIROQ QILISH</a>
+                    <a class="ctabtn-two" href="#">TELEGRAMDAN YOZISH</a>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" >
         <div class="footer-container container">
             <a class="ansormed-link" href="#"><img src="./img/ansormed-black.svg" alt="Ansormed-logo"></a>
 
