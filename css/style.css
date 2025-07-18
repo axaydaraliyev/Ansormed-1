@@ -1,5 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+    --white: #ffffff;
+}
 
+/* FONTS */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/OpenSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
 * {
     box-sizing: border-box;
@@ -17,17 +38,19 @@
     background-color: #DE2E54;
     font-family: "Open Sans";
     font-weight: bold;
+    color: var(--white);
     font-size: 15px;
     line-height: 150%;
     letter-spacing: 2px;
     padding: 12px 24px;
-    color: white;
+    color: var(--var(--white));
     text-decoration: none;
     border-radius: 8px;
     display: inline-block;
+    border: 2px solid #DE2E54;
 }
 .red-button:hover {
-    background-color: white;
+    background-color: var(--white);
     color: #DE2E54;
     transition: 0.5s ease;
     border: 2px solid #DE2E54;
@@ -109,13 +132,13 @@
 }
 
 .hero-title {
-    color: white;
+    color: var(--white);
     font-family: "Open sans";
     font-weight: bold;
 }
 
 .hero-text {
-    color: white;
+    color: var(--white);
     font-size: 18px;
     font-family: "Open sans";
     font-weight: "regular";
@@ -207,8 +230,8 @@
 }
 
 .cta-container {
-    color: white;
-    color: white;
+    color: var(--white);
+    color: var(--white);
     font-family: "Open sans";
     font-weight: bold;
     font-size: 20px;
@@ -223,11 +246,11 @@
 }
 
 .cta-buttons a{ 
-    color: white;
+    color: var(--white);
     text-decoration: none;
     padding: 12px 24px;
     font-size: 15px;
-    border: 2px solid white;
+    border: 2px solid var(--white);
     border-radius: 8px;
 }
 
@@ -237,7 +260,7 @@
 }
 
 .ctabtn-one:hover {
-    background-color: white;
+    background-color: var(--white);
     color:#0EB4C1;
     transition: 1s ease;
 }
@@ -247,7 +270,7 @@
     left: 20px;
 }
 .ctabtn-two:hover {
-    background-color: white;
+    background-color: var(--white);
     color:#0EB4C1;
     transition: 1s ease;
 }
@@ -278,7 +301,7 @@
 }
 
 .footer-link a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 
