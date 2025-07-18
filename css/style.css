@@ -307,19 +307,7 @@
 
     .hero-img {
         position: static;
-        margin-top: 80px;
-    }
-
-    .hero-container {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .hero-section {
-        background-color: #0EB4C1;
-        height: 962px;
-        padding: 20px;
+        margin-top: -61px;
     }
 
     .xizmatlar-button {
@@ -386,6 +374,24 @@
     }
 }
 
+@media (max-width: 1002px) {
+    .hero-img {
+        position: static;
+        margin-top: 80px;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-section {
+        background-color: #0EB4C1;
+        height: 962px;
+        padding: 20px;
+    }
+}
+
 @media (max-width: 600px) {
     .hero-content{
         width: 350px;
@@ -449,6 +455,7 @@
         height: 330px;
         margin-top: 180px;
     }
+    
     .hero-section{
         height: 915px;
     }
@@ -456,6 +463,36 @@
     .xizmatlar-button {
         justify-content: center;
         align-items: center;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-button {
+        margin-top: 100px;
+    }
+
+    .hero-img {
+        margin-top: 150px;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-section {
+        height: 883px;
     }
 }
 
@@ -471,8 +508,14 @@
         align-items: center;
     }
 
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .hero-section {
-        height: 803px;
+        height: 797px;
     }
 
     .header-img {
@@ -488,7 +531,7 @@
         position: relative;
         margin-top: -220px;
         width: 170px;
-        font-size: 9px;
+        font-size: 7px;
     }
 
     .hero-content {
@@ -501,16 +544,13 @@
         height: 300px;
     }
 
-    .hero-text {
+    .hero-text{
         width: 270px;
         text-align: center;
     }
     .hero-title {
         font-size: 20px;
-        text-align: start;
-    }
-    .hero-text {
-        text-align: start;
+        text-align: center;
     }
 
     .cta-buttons a {
